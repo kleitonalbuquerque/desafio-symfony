@@ -32,6 +32,5 @@
 
 * Bootstrap
 * ngrok - open terminal and insert command: $ ./ngrok http 8000
-* Docker
 
 ### BAMMM!
