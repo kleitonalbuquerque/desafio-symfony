@@ -4,7 +4,6 @@
 
 ### Dependencies
 
-* Install composer:
  - [Composer install](https://www.digitalocean.com/community/tutorials/como-instalar-e-usar-o-composer-no-ubuntu-18-04-pt)
  - [Install Apache server and MySQL](https://www.digitalocean.com/community/tutorials/como-instalar-a-pilha-linux-apache-mysql-php-lamp-no-ubuntu-18-04-pt)
  - Create database equal .env
@@ -22,7 +21,7 @@
 ### Clone the project
 
 * $ git clone git@github.com:kleitonalbuquerque/desafio-symfony.git on folder /var/www/html
-* $ cd apps/desafio-symfony
+* $ cd desafio-symfony
 * $ php bin/console doctrine:schema:update --force
 * $ sudo composer require annotation
 * $ php bin/console server:start
