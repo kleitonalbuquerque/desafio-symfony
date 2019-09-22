@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Category{% endblock %}
+
+{% block body %}
+    <div class="container" style="margin-left: 200px; padding-top: 20px;">
+            <div class="card text-center" style="width: 40rem;">
+                    <h3 class="card-header">Edit Category</h3>
+                    <div class="card-body">
+                        
+                        
+                        <p>{{ include('category/_form.html.twig', {'button_label': 'Update'}) }}</p>
+                        
+                        <a href="{{ path('category_index') }}" class="btn btn-primary">back to list</a>
+                        <p></p>
+                        
+                        {{ include('category/_delete_form.html.twig') }}
+                    </div>
+                </div>
+    </div>
+{% endblock %}
